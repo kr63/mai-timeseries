@@ -1,0 +1,29 @@
+{
+    "features": [
+        "drive.current_mean_15_len_10_shift",
+        "drive.current_mean_45_len_10_shift",
+        "drive.current_min_45_len_5_shift",
+        "drive.current_max_90_len_5_shift",
+        "raw_mix.consumption_mean_15_len_10_shift",
+        "raw_mix.consumption_min_45_len_5_shift",
+        "raw_mix.consumption_mean_300_len_30_shift",
+        "raw_mix.moisture_avg_mean_60_len_15_shift",
+        "temp.out_mean_25_len_5_shift",
+        "temp.inlet_mean_25_len_5_shift",
+        "temp.out_min_25_len_5_shift",
+        "temp.inlet_max_30_len_5_shift",
+        "lag_1",
+        "lag_2",
+        "lag_3",
+        "lag_7",
+        "lag_14"
+    ],
+    "metrics": {
+        "mae": 0.9625831202548031,
+        "mae_baseline": 0.9796462585034013,
+        "mae_baseline_shift": 1.1999999999999997,
+        "same_direction_ratio": 0.375,
+        "mse": 1.5465090440896538
+    },
+    "timestamp": "20250427_212033"
+}

@@ -169,3 +169,4 @@ dmypy.json
 cython_debug/
 
 lab02/data/*
+lab02/catboost_info
